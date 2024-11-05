@@ -29,5 +29,5 @@ class AudioRecorder:
 if __name__ == "__main__":
     recorder = AudioRecorder()
     recorder.list_devices()
-    recorder.record_audio(10, "test_two_people.wav")
+    recorder.record_audio(10, "test_two_people1.wav")
     # recorder.remove_audio("test.wav")
